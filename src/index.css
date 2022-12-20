@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  main {
+    @apply text-base dark:bg-dark min-h-screen font-primary text-textClr dark:text-white;
+  }
+
+  .container {
+    @apply px-8 mx-auto;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  .btn {
+    @apply bg-primary text-white border-[1px] border-primary hover:bg-primary/80 py-2 px-4 transition-all rounded;
+  }
+  .btn-outline {
+    @apply text-primary border-[1px] border-primary py-2 px-4 transition-all rounded;
+  }
+}
+
+.quill {
+  @apply dark:border-darkOutline;
+}
+
+.ql-editor {
+  @apply min-h-[16rem] text-base;
+}
+.ql-toolbar.ql-snow {
+  @apply rounded-t-lg dark:border-darkOutline;
+}
+.ql-snow .ql-picker {
+  @apply text-base;
+}
+
+.ql-container.ql-snow {
+  @apply rounded-b-lg dark:border-darkOutline;
+}
+
+.ql-snow .ql-stroke {
+  @apply dark:stroke-white;
+}
+
+.ql-editor.ql-blank::before {
+  @apply dark:text-white;
+}
