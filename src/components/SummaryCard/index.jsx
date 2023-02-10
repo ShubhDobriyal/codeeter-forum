@@ -13,7 +13,9 @@ const SummaryCard = (props) => {
       </h5>
       <div>
         <h3 className="text-2xl mb-2 font-medium leading-5 hover:underline ">
-          <Link to={`/question/${props.data.id}`}>{props.data.title}</Link>
+          <Link to={`codeeter-forum/question/${props.data.id}`}>
+            {props.data.title}
+          </Link>
         </h3>
 
         <div className="mt-3 flex space-x-1 text-xs font-normal leading-4">

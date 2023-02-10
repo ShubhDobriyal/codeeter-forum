@@ -26,12 +26,12 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive ? "text-secondary" : "hover:underline"
                 }
-                to="/snippets"
+                to="codeeter-forum/snippets"
               >
                 Snippets
               </NavLink>
               <NavLink
-                to="/questions"
+                to="codeeter-forum/questions"
                 className={({ isActive }) =>
                   isActive ? "text-secondary" : "hover:underline"
                 }

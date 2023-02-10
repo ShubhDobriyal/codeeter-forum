@@ -37,7 +37,7 @@ const ProfileMenu = () => {
           <div className="px-1 py-1 ">
             <Menu.Item>
               <Link
-                to="/profile"
+                to="codeeter-forum/profile"
                 className="w-full text-left flex items-center py-3 px-4 hover:bg-primary/30 dark:hover:bg-dark/50"
               >
                 <HiOutlineUserCircle

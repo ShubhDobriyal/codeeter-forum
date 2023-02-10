@@ -11,7 +11,7 @@ import SnippetsListing from "./../pages/SnippetsListing";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/codeeter-forum/",
     element: <Layout />,
     children: [
       {
@@ -19,31 +19,31 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "ask-question",
+        path: "codeeter-forum/ask-question",
         element: <NewQuestion />,
       },
       {
-        path: "questions",
+        path: "codeeter-forum/questions",
         element: <QuestionsListing />,
       },
       {
-        path: "question/:id",
+        path: "codeeter-forum/question/:id",
         element: <QuestionDetail />,
       },
       {
-        path: "add-snippet",
+        path: "codeeter-forum/add-snippet",
         element: <NewSnippet />,
       },
       {
-        path: "snippets",
+        path: "codeeter-forum/snippets",
         element: <SnippetsListing />,
       },
       {
-        path: "snippet/:id",
+        path: "codeeter-forum/snippet/:id",
         element: <SnippetDetail />,
       },
       {
-        path: "profile",
+        path: "codeeter-forum/profile",
         element: <Profile />,
       },
     ],

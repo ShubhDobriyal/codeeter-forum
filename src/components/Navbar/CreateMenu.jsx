@@ -24,7 +24,7 @@ const CreateMenu = () => {
           <div className="px-1 py-1 ">
             <Menu.Item>
               <Link
-                to="/ask-question"
+                to="codeeter-forum/ask-question"
                 className="w-full text-left flex items-center py-3 px-4 hover:bg-primary/30 dark:hover:bg-dark/50"
               >
                 Question
@@ -32,7 +32,7 @@ const CreateMenu = () => {
             </Menu.Item>
             <Menu.Item>
               <Link
-                to="/add-snippet"
+                to="codeeter-forum/add-snippet"
                 className="w-full text-left flex items-center py-3 px-4 hover:bg-primary/30 dark:hover:bg-dark/50"
               >
                 Snippet

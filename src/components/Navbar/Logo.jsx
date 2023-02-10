@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <Link
       className="font-bold text-xl text-primary dark:text-white flex items-center gap-2 lowercase tracking-wider "
-      to="/"
+      to="/codeeter-forum/"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
